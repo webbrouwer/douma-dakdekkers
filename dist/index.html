@@ -51,14 +51,15 @@
                         <img src="https://via.placeholder.com/200x80" alt="logo">
                     </div>
                     <div class="md:hidden">
-                        <button type="button" class="block hover:text-white focus:text-white">
-                            <svg class="h-8 w-8" viewBox="0 0 24 24">
-                              <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+                        <button id="mobileMenuButton-js" type="button" class="block hover:text-white focus:text-white">
+                            <svg class="h-8 w-8 fill-current text-orange" viewBox="0 0 24 24">
+                                <path id="menuClosed-js" class="hidden" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
+                                <path id="menuOpen-js" class="block" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/> -->
                             </svg>
                         </button>
                     </div>
                 </div>
-                <nav class="px-2 pt-2 pb-4 text-white md:flex md:p-0">
+                <nav id="menu-js" class="hidden px-2 pt-2 pb-4 text-white md:flex md:p-0">
                     <a class="active menu-item block px-2 py-1 text-lg font-bold" href="index.html">Home</a>
                     <a class="menu-item block px-2 py-1 mt-1 text-lg font-bold md:mt-0 md:ml-1" href="index.html">Diensten</a>
                     <a class="menu-item block px-2 py-1 mt-1 text-lg font-bold md:mt-0 md:ml-1" href="index.html">Over ons</a>
@@ -386,6 +387,9 @@
         </footer>
 
     </div>
+
+    <!-- custem JS -->
+    <script src="../js/custom.js"></script>
 
     <!-- Swiper JS -->
     <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
