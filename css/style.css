@@ -41,10 +41,15 @@ a.link:hover {
 }
 
 .contact-form-slider {
-    position: absolute;
     z-index: 1000;
-    top: 100px;
-    left: 100px;
+    top: 5%;
+    left: 5%;
+}
+
+@media (min-width: 768px) {
+    .swiper-slide img {
+        min-height: 600px;
+    }
 }
 
 .lines-slider {
