@@ -674,6 +674,13 @@ a.link:hover {
   transform: rotate(180deg);
 }
 
+.lines-inverted-white {
+  position: relative;
+  transform: rotate(180deg);
+  margin-bottom: -4px;
+  top: -2px;
+}
+
 .container {
   width: 100%;
 }
