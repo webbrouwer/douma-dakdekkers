@@ -594,6 +594,10 @@ html {
   font-size: 18px
 }
 
+body {
+  opacity: 1;
+}
+
 h1 {
   font-size: 4rem;
   font-weight: 700;
@@ -651,13 +655,20 @@ a.link:hover {
 .contact-form-slider {
   z-index: 1000;
   top: 5%;
-  left: 5%;
+  left: 10%;
 }
 
 @media (min-width: 768px) {
   .swiper-slide img {
     min-height: 600px;
   }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  color: #fff !important;
 }
 
 .banner {
