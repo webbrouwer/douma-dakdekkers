@@ -660,6 +660,10 @@ a.link:hover {
   }
 }
 
+.banner {
+  position: relative;
+}
+
 .lines-slider {
   position: absolute;
   z-index: 1000;
@@ -677,13 +681,6 @@ a.link:hover {
   position: relative;
   top: -2px;
   transform: rotate(180deg);
-}
-
-.lines-inverted-white {
-  position: relative;
-  transform: rotate(180deg);
-  margin-bottom: -4px;
-  top: -2px;
 }
 
 .container {
