@@ -1847,16 +1847,16 @@ a.link:hover {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
+.bg-gray-300 {
+  --bg-opacity: 1;
+  background-color: #f1f1f1;
+  background-color: rgba(241, 241, 241, var(--bg-opacity));
+}
+
 .bg-gray-lighter {
   --bg-opacity: 1;
   background-color: #5e5e5e;
   background-color: rgba(94, 94, 94, var(--bg-opacity));
-}
-
-.bg-gray-50 {
-  --bg-opacity: 0.05;
-  background-color: #4d4d4d;
-  background-color: rgba(77, 77, 77, var(--bg-opacity));
 }
 
 .bg-gray {
@@ -11084,6 +11084,30 @@ a.link:hover {
   color: rgba(94, 94, 94, var(--placeholder-opacity));
 }
 
+.placeholder-gray-500::-moz-placeholder {
+  --placeholder-opacity: 1;
+  color: #f1f1f1;
+  color: rgba(144, 144, 144, var(--placeholder-opacity));
+}
+
+.placeholder-gray-500:-ms-input-placeholder {
+  --placeholder-opacity: 1;
+  color: #f1f1f1;
+  color: rgba(144, 144, 144, var(--placeholder-opacity));
+}
+
+.placeholder-gray-500::-ms-input-placeholder {
+  --placeholder-opacity: 1;
+  color: #f1f1f1;
+  color: rgba(144, 144, 144, var(--placeholder-opacity));
+}
+
+.placeholder-gray-500::placeholder {
+  --placeholder-opacity: 1;
+  color: #909090;
+  color: rgba(144, 144, 144, var(--placeholder-opacity));
+}
+
 .placeholder-gray::-moz-placeholder {
   --placeholder-opacity: 1;
   color: #4d4d4d;
@@ -14959,6 +14983,12 @@ a.link:hover {
   --text-opacity: 1;
   color: #5e5e5e;
   color: rgba(94, 94, 94, var(--text-opacity));
+}
+
+.text-gray-500 {
+  --text-opacity: 1;
+  color: #909090;
+  color: rgba(144, 144, 144, var(--text-opacity));
 }
 
 .text-gray {
