@@ -1853,6 +1853,12 @@ a.link:hover {
   background-color: rgba(94, 94, 94, var(--bg-opacity));
 }
 
+.bg-gray-50 {
+  --bg-opacity: 0.05;
+  background-color: #4d4d4d;
+  background-color: rgba(77, 77, 77, var(--bg-opacity));
+}
+
 .bg-gray {
   --bg-opacity: 1;
   background-color: #4d4d4d;
